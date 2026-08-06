@@ -99,16 +99,16 @@ meng-skills/
 
 独立使用，不依赖其他技能。Python 自动化验证依赖标准库（`zipfile`, `re`）。
 
-## 维护
+## 致谢
 
-两个副本需同步更新（发布版路径仅为示例，按实际环境调整）：
+本技能在开发过程中参考并吸收了以下开源项目与技能的方法论：
 
-| 位置 | 用途 | 路径（示例） |
+| 项目 | 贡献 | 致谢 |
 |------|------|------|
-| Hermes 技能系统 | Agent 运行时加载 | `~/.hermes/skills/writing/meng-skills/` |
-| 本地项目仓库 | 版本控制 + GitHub 发布 | `~/hermes/技能/meng skills/` |
-
-修改流程：先改 Hermes 版本，再**全目录同步**（SKILL.md + references/，`cp references/*` + `diff -r` 自检）——历史教训：只同步主文件会导致 references 双向漂移。
+| [redbaronyyyyy-eng/humanizer-zh-academic](https://github.com/redbaronyyyyy-eng/humanizer-zh-academic)（237★） | 16 个中文 AI 文本模式、硬约束表、噪声预算——用于 §3.2/§3.3/§7/§10 | 感谢作者对中文学术写作去 AIGC 检测的贡献 |
+| [Ryyyyyyy233/JF-Writing-Skill](https://github.com/Ryyyyyyy233/JF-Writing-Skill)（81★） | 从 144 篇 Journal of Finance 论文提炼的写作原则——声明强度校准、结构审计、量化指标（§4/§5/§6/§8） | 感谢作者从 JF 论文中蒸馏的系统性写作方法论 |
+| shizheng-writing | 实证章节写法规范（27 篇中文顶刊提炼），已并入本技能 §9 | 本仓库作者早期技能 |
+| chinese-de-aigc（AERS） | 五大结构性特征诊断、五步闭环工作流、五维评分体系——本技能 v1/v2 的方法论基石 | AERS 项目 |
 
 ## 许可
 
